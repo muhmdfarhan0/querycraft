@@ -3,21 +3,126 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>QueryCraft — AI SQL Generator | Natural Language to SQL</title>
-  <meta name="description" content="QueryCraft converts plain English to production-ready SQL using Groq AI. Paste your schema, describe your query, get SQL instantly.">
-  <meta name="keywords" content="SQL generator, AI SQL, natural language to SQL, Groq AI, database query tool, PostgreSQL, MySQL, SQLite">
-  <meta name="author" content="QueryCraft">
-  <meta property="og:title" content="QueryCraft — AI SQL Generator">
-  <meta property="og:description" content="Natural Language → SQL. Powered by Groq AI. Free & Open Source.">
-  <meta property="og:type" content="website">
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="QueryCraft — AI SQL Generator">
-  <meta name="twitter:description" content="Natural Language → SQL. Powered by Groq AI.">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
+  <!-- Primary SEO -->
+  <title>QueryCraft — Free AI SQL Generator | Natural Language to SQL</title>
+  <meta name="description" content="QueryCraft converts plain English to production-ready SQL instantly using Groq AI. Supports PostgreSQL, MySQL, SQLite, SQL Server and BigQuery. Free, no signup, runs in your browser.">
+  <meta name="keywords" content="SQL generator, AI SQL generator, natural language to SQL, text to SQL, Groq AI SQL, free SQL tool, PostgreSQL generator, MySQL query builder, SQLite query, BigQuery SQL, SQL from English, AI database query, NL2SQL">
+  <meta name="author" content="Muhammad Farhan">
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta name="theme-color" content="#0d1117">
+  <link rel="canonical" href="https://muhmdfarhan0.github.io/querycraft/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://muhmdfarhan0.github.io/querycraft/">
+  <meta property="og:site_name" content="QueryCraft">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:title" content="QueryCraft — Free AI SQL Generator | Natural Language to SQL">
+  <meta property="og:description" content="Describe your database query in plain English. Get production-ready SQL with step-by-step explanation and performance tips. Powered by Groq AI. 100% free.">
+  <meta property="og:image" content="https://muhmdfarhan0.github.io/querycraft/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="QueryCraft — Type plain English, get production-ready SQL">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://muhmdfarhan0.github.io/querycraft/">
+  <meta name="twitter:title" content="QueryCraft — Free AI SQL Generator">
+  <meta name="twitter:description" content="Type plain English. Get production-ready SQL instantly. Supports PostgreSQL, MySQL, SQLite, SQL Server, BigQuery. Powered by Groq AI.">
+  <meta name="twitter:image" content="https://muhmdfarhan0.github.io/querycraft/og-image.png">
+  <meta name="twitter:image:alt" content="QueryCraft AI SQL Generator">
+
+  <!-- DNS Prefetch -->
+  <link rel="dns-prefetch" href="//fonts.googleapis.com">
+  <link rel="dns-prefetch" href="//fonts.gstatic.com">
+  <link rel="dns-prefetch" href="//cdnjs.cloudflare.com">
+  <link rel="dns-prefetch" href="//api.groq.com">
+
+  <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400;1,600&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github-dark.min.css">
+
+  <!-- JSON-LD Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "QueryCraft",
+    "url": "https://muhmdfarhan0.github.io/querycraft/",
+    "description": "Free AI-powered SQL generator that converts plain English descriptions into production-ready SQL queries. Supports PostgreSQL, MySQL, SQLite, SQL Server, and BigQuery.",
+    "applicationCategory": "DeveloperApplication",
+    "operatingSystem": "Any",
+    "browserRequirements": "Requires a modern browser with JavaScript enabled",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD"
+    },
+    "featureList": [
+      "Natural language to SQL conversion",
+      "Supports PostgreSQL, MySQL, SQLite, SQL Server, BigQuery",
+      "Step-by-step SQL explanation",
+      "Performance optimization suggestions",
+      "In-browser sample data testing",
+      "Query history with localStorage",
+      "SQL syntax highlighting",
+      "Client-side SQL formatter",
+      "No signup required"
+    ],
+    "creator": {
+      "@type": "Person",
+      "name": "Muhammad Farhan",
+      "url": "https://github.com/muhmdfarhan0"
+    },
+    "codeRepository": "https://github.com/muhmdfarhan0/querycraft",
+    "license": "https://opensource.org/licenses/MIT",
+    "keywords": "SQL generator, natural language SQL, AI SQL, text to SQL, Groq AI, NL2SQL"
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What is QueryCraft?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "QueryCraft is a free AI-powered SQL generator that converts plain English descriptions into production-ready SQL queries using Groq AI (llama-3.3-70b). It supports PostgreSQL, MySQL, SQLite, SQL Server, and BigQuery."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is QueryCraft free to use?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. QueryCraft is completely free and open source. You only need a free Groq API key from console.groq.com, which takes 30 seconds to get. No credit card required."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Which SQL dialects does QueryCraft support?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "QueryCraft supports PostgreSQL, MySQL, SQLite, SQL Server (T-SQL), and Google BigQuery. Each dialect generates syntax-correct SQL respecting dialect-specific functions and conventions."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is my database schema or API key stored anywhere?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No. Your schema and queries are sent only to Groq's API for processing and are never stored on any server. Your API key is saved only in your browser's localStorage and never leaves your device except when calling Groq's API directly."
+        }
+      }
+    ]
+  }
+  </script>
 
   <style>
     :root {
@@ -661,6 +766,106 @@
       padding: 11px 12px !important;
     }
 
+    /* ── SEO FEATURES / FAQ SECTION ── */
+    .seo-section {
+      border-top: 1px solid var(--border);
+      margin-top: 48px;
+      padding: 48px 24px;
+      background: var(--panel);
+    }
+
+    .seo-inner {
+      max-width: 1100px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      gap: 48px;
+    }
+
+    .seo-heading {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 24px;
+      font-weight: 600;
+      font-style: italic;
+      color: var(--text);
+      margin-bottom: 20px;
+      letter-spacing: 0.2px;
+    }
+
+    .seo-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 16px;
+    }
+
+    .seo-card {
+      background: var(--code-bg);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 16px 18px;
+    }
+
+    .seo-card-title {
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--text);
+      margin-bottom: 8px;
+    }
+
+    .seo-card p {
+      font-size: 13px;
+      color: var(--muted);
+      line-height: 1.65;
+    }
+
+    .faq-list { display: flex; flex-direction: column; gap: 8px; }
+
+    .faq-item {
+      background: var(--code-bg);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      overflow: hidden;
+    }
+
+    .faq-q {
+      cursor: pointer;
+      font-size: 13.5px;
+      font-weight: 600;
+      color: var(--text);
+      list-style: none;
+      padding: 14px 16px;
+      user-select: none;
+      transition: background 0.15s;
+    }
+
+    .faq-q::-webkit-details-marker { display: none; }
+    .faq-q::before { content: '[+] '; color: var(--accent-hover); font-family: 'JetBrains Mono', monospace; font-size: 11px; }
+    .faq-item[open] .faq-q::before { content: '[-] '; }
+    .faq-q:hover { background: rgba(255,255,255,0.03); }
+
+    .faq-a {
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.65;
+      padding: 14px 16px;
+    }
+
+    .faq-a a { color: var(--accent-hover); }
+    .faq-a code {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 3px;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 11.5px;
+      padding: 1px 5px;
+    }
+
+    @media (max-width: 768px) {
+      .seo-grid { grid-template-columns: 1fr; }
+      .seo-section { padding: 32px 14px; }
+    }
+
     /* ── FOOTER ── */
     footer {
       border-top: 1px solid var(--border);
@@ -727,11 +932,11 @@
   <!-- ═══════════════ HEADER ═══════════════ -->
   <header>
     <div class="header-left">
-      <div class="logo">
+      <h1 class="logo">
         <span class="logo-icon">[DB]</span>
         <span>QueryCraft</span>
-      </div>
-      <div class="tagline">Natural Language → SQL. Powered by Groq AI.</div>
+      </h1>
+      <p class="tagline">Natural Language → SQL. Powered by Groq AI.</p>
     </div>
     <div class="header-right">
       <a href="https://github.com/muhmdfarhan0/querycraft" class="btn btn-ghost" target="_blank" rel="noopener noreferrer">[*] Star on GitHub</a>
@@ -759,7 +964,7 @@
   <div class="app-wrapper">
 
     <!-- ── MAIN CONTENT ── -->
-    <main>
+    <main id="main-content" aria-label="SQL generator tool">
 
       <!-- Error banner -->
       <div class="error-banner" id="errorBanner" style="display:none">
@@ -912,7 +1117,7 @@ WHERE o.id IS NULL</code></pre>
     </main>
 
     <!-- ── HISTORY SIDEBAR ── -->
-    <aside class="history-sidebar">
+    <aside class="history-sidebar" aria-label="Query history">
       <div class="history-header">
         <h3>Query History</h3>
       </div>
@@ -923,6 +1128,69 @@ WHERE o.id IS NULL</code></pre>
     </aside>
 
   </div><!-- /.app-wrapper -->
+
+  <!-- ═══════════════ SEO FEATURES SECTION ═══════════════ -->
+  <section class="seo-section" aria-label="Features and FAQ">
+    <div class="seo-inner">
+
+      <div class="seo-features">
+        <h2 class="seo-heading">Why developers use QueryCraft</h2>
+        <div class="seo-grid">
+          <div class="seo-card">
+            <div class="seo-card-title">Plain English to SQL</div>
+            <p>Describe what you need in natural language — QueryCraft uses Groq AI (llama-3.3-70b) to generate clean, production-ready SQL with proper aliases, explicit JOINs, and dialect-correct syntax.</p>
+          </div>
+          <div class="seo-card">
+            <div class="seo-card-title">5 SQL Dialects</div>
+            <p>Generate SQL for PostgreSQL, MySQL, SQLite, SQL Server (T-SQL), or Google BigQuery. Each dialect respects its own date functions, string operators, and pagination syntax.</p>
+          </div>
+          <div class="seo-card">
+            <div class="seo-card-title">Step-by-step Explanation</div>
+            <p>Every generated query comes with a plain English breakdown of each clause — perfect for learning SQL, code reviews, or sharing queries with non-technical teammates.</p>
+          </div>
+          <div class="seo-card">
+            <div class="seo-card-title">Performance Tips</div>
+            <p>QueryCraft flags missing indexes, suboptimal JOIN order, and full-table scan risks before you run the query in production. Catch slow queries at generation time.</p>
+          </div>
+          <div class="seo-card">
+            <div class="seo-card-title">No Backend, No Signup</div>
+            <p>Everything runs in your browser. Your schema never leaves your machine except for the Groq API call. No account, no server, no data retention. Open source under MIT.</p>
+          </div>
+          <div class="seo-card">
+            <div class="seo-card-title">In-Browser Testing</div>
+            <p>Instantly test your generated SQL against auto-generated sample data. QueryCraft parses your CREATE TABLE schema and produces realistic fake rows — no database connection needed.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="seo-faq">
+        <h2 class="seo-heading">Frequently Asked Questions</h2>
+        <div class="faq-list">
+          <details class="faq-item">
+            <summary class="faq-q">What is QueryCraft?</summary>
+            <p class="faq-a">QueryCraft is a free, browser-based AI SQL generator. You paste your database schema (CREATE TABLE statements), describe what you want in plain English, choose a SQL dialect, and receive a production-ready SQL query — along with a step-by-step explanation and performance optimization suggestions.</p>
+          </details>
+          <details class="faq-item">
+            <summary class="faq-q">Is QueryCraft free to use?</summary>
+            <p class="faq-a">Yes, completely free. You need a Groq API key, which is also free at <a href="https://console.groq.com" target="_blank" rel="noopener">console.groq.com</a>. Groq's free tier is generous enough for personal and small-team use. No credit card required.</p>
+          </details>
+          <details class="faq-item">
+            <summary class="faq-q">Which SQL dialects are supported?</summary>
+            <p class="faq-a">QueryCraft supports PostgreSQL, MySQL, SQLite, SQL Server (T-SQL), and Google BigQuery. The AI generates syntax that is specific to each dialect — for example, <code>ILIKE</code> for PostgreSQL, <code>TOP</code> vs <code>LIMIT</code> for SQL Server vs MySQL, and BigQuery-specific date functions.</p>
+          </details>
+          <details class="faq-item">
+            <summary class="faq-q">Is my schema or API key stored?</summary>
+            <p class="faq-a">Your API key is stored only in your browser's localStorage and is never sent anywhere except directly to Groq's API. Your schema and query text are sent to Groq for processing and are not stored on any external server. QueryCraft has no backend.</p>
+          </details>
+          <details class="faq-item">
+            <summary class="faq-q">How accurate is the generated SQL?</summary>
+            <p class="faq-a">QueryCraft uses Groq's llama-3.3-70b model, which produces accurate SQL for common query patterns. Always review generated SQL before running it in production. The step-by-step explanation tab makes it easy to verify the logic.</p>
+          </details>
+        </div>
+      </div>
+
+    </div>
+  </section>
 
   <!-- ═══════════════ FOOTER ═══════════════ -->
   <footer>
