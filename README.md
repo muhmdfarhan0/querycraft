@@ -2,7 +2,7 @@
 
 > Describe your query in plain English. Get production-ready SQL instantly.
 
-**[🚀 Live Demo](https://yourusername.github.io/querycraft)**
+**[🚀 Live Demo](https://muhmdfarhan0.github.io/querycraft)**
 
 ## What it does
 
@@ -24,11 +24,10 @@ Go to [console.groq.com](https://console.groq.com) → Sign up free → Create A
 ### 2. Deploy to GitHub Pages
 
 ```bash
-git clone https://github.com/yourusername/querycraft
+git clone https://github.com/muhmdfarhan0/querycraft
 cd querycraft
-# Push to GitHub, then:
-# Settings → Pages → Source: main branch → /root → Save
-# Your tool is live at: https://yourusername.github.io/querycraft
+# Already deployed at:
+# https://muhmdfarhan0.github.io/querycraft
 ```
 
 ### 3. Use it
